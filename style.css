@@ -1,0 +1,84 @@
+html,
+body {
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.header {
+   background-image:url(SouthBeach.jpg) ;
+   background-size: cover;
+   background-color: black;
+   background-repeat: no-repeat;
+   line-height: 300px;
+   padding: 0;
+   margin-top:-50px;
+}
+
+h1{
+    font-size:4.375rem;
+    color:white;
+    text-shadow: 20px 20px 50px black;
+    
+}
+
+.main {
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+
+
+}
+h2{
+    font-size: 2.5rem;
+}
+#h2{
+    text-decoration: underline ;
+    
+}
+span{
+    color:#BC8567;
+}
+#main-photos{
+    width: 300px;
+    height: 300px;
+    border-radius: 6%;
+
+}
+h3{
+    font-size:1.5rem;
+}
+.bottom-section{
+    border:10px solid #F6B8B3 ;
+    width :80%;
+    margin:auto;
+    padding:1px, 5px, 0, 1px;
+    background:linear-gradient(#F6B8B3,#EDCFC6);
+}
+#travel-guide{
+    border-radius: 150%;
+    width:250px;
+    height: 250px;
+    border:5px solid #F6B8B3;
+}
+
+.bottom{
+    
+    width :80%;
+    margin: auto;
+    padding:1px, 5px, 0, 1px; 
+}
+
+#South-Beach{
+    width: 50%;
+    height: 300px;
+}
+footer{
+    text-align: left;
+    margin-left:0;
+    background-color:#00858E ;
+    font-size:1.5rem;
+}
